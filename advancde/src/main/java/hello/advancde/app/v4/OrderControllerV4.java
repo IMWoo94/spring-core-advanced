@@ -1,4 +1,4 @@
-package hello.advancde.app.V4;
+package hello.advancde.app.v4;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
