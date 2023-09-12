@@ -26,4 +26,9 @@ public class MemberServiceImpl implements MemberService {
 	public String internalMethod(int a, String b, int c) {
 		return "ok";
 	}
+
+	public String atArgs(MemberCheck memberCheck) {
+		return "ok";
+	}
+
 }
