@@ -16,7 +16,7 @@ class ExamTest {
 
 	@Autowired
 	ExamService examService;
-
+	
 	@Test
 	void test() {
 		for (int i = 0; i < 7; i++) {
