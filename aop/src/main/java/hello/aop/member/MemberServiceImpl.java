@@ -9,6 +9,10 @@ import hello.aop.member.annotation.MethodAop;
 @Component
 public class MemberServiceImpl implements MemberService {
 
+	public MemberServiceImpl() {
+		System.out.println("member service impl constructor");
+	}
+
 	@Override
 	@MethodAop("test value")
 	public String hello(String param) {
